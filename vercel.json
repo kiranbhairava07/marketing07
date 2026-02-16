@@ -13,7 +13,7 @@
     }
   ],
   "env": {
-    "DATABASE_URL": "postgresql+asyncpg://postgres:Kiran%40123@localhost:5432/qr_test",
+    "DATABASE_URL": "postgresql+asyncpg://neondb_owner:npg_HZSDJAF83tvk@ep-shiny-mud-akcdrngu-pooler.c-3.us-west-2.aws.neon.tech/qr-manager",
     "SECRET_KEY": "LMHiMug_Q-hJGzgrboW1YIhOAY-4cP901l66bvMigA8"
   }
 }
