@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "main.py",
+      "use": "@vercel/python"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "main.py"
+    }
+  ],
+  "env": {
+    "DATABASE_URL": "postgresql+asyncpg://postgres:Kiran%40123@localhost:5432/qr_test",
+    "SECRET_KEY": "LMHiMug_Q-hJGzgrboW1YIhOAY-4cP901l66bvMigA8"
+  }
+}
