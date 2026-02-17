@@ -22,7 +22,7 @@ class Settings(BaseSettings):
     ACCESS_TOKEN_EXPIRE_MINUTES: int = 1440  # 24 hours
     
     # Server
-    BASE_URL: str = "https://marketing07.vercel.app"
+    BASE_URL: str = "https://marketing07.onrender.com"
     ENVIRONMENT: str = "production"  # development, staging, production
     
     # Logging
